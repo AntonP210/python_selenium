@@ -8,15 +8,15 @@ This project contains automated tests using Python, Selenium, and Pytest.
 - pip (Python package installer)
 - Chrome/Firefox browser (depending on your webdriver configuration)
 
-# Windows
+## Windows
 `python -m venv venv`
 `venv\Scripts\activate`
 
-# macOS/Linux
+## macOS/Linux
 `python -m venv venv`
 `source venv/bin/activate`
 
-#Install Dependencies
+## Install Dependencies
 `pip install -r requirements.txt`
 
 ## Project Structure

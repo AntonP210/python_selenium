@@ -19,7 +19,7 @@ source venv/bin/activate
 #Install Dependencies
 pip install -r requirements.txt
 
-#Project Structure
+## Project Structure
 PYTHON SELENIUM/
 ├── config/         # Configuration files
 ├── drivers/        # WebDriver files
@@ -29,11 +29,11 @@ PYTHON SELENIUM/
 │   └── conftest.py
 └── requirements.txt
 
-#Run all tests:
+## Run all tests:
 pytest
 
-#To run specific test file:
+## To run specific test file:
 pytest tests/test_login.py -v
 
-#To run tests and see print statements:
+## To run tests and see print statements:
 pytest tests/test_login.py -v -s

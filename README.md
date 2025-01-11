@@ -9,15 +9,15 @@ This project contains automated tests using Python, Selenium, and Pytest.
 - Chrome/Firefox browser (depending on your webdriver configuration)
 
 # Windows
-python -m venv venv
-venv\Scripts\activate
+`python -m venv venv`
+`venv\Scripts\activate`
 
 # macOS/Linux
-python -m venv venv
-source venv/bin/activate
+`python -m venv venv`
+`source venv/bin/activate`
 
 #Install Dependencies
-pip install -r requirements.txt
+`pip install -r requirements.txt`
 
 ## Project Structure
 PYTHON SELENIUM/
@@ -30,10 +30,10 @@ PYTHON SELENIUM/
 └── requirements.txt
 
 ## Run all tests:
-pytest
+`pytest`
 
 ## To run specific test file:
-pytest tests/test_login.py -v
+`pytest tests/test_login.py -v`
 
 ## To run tests and see print statements:
-pytest tests/test_login.py -v -s
+`pytest tests/test_login.py -v -s`
